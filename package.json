@@ -1,0 +1,29 @@
+{
+  "name": "hubot-rae",
+  "version": "1.0.3",
+  "description": "Define words in spanish using hubot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gmq/hubot-rae.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "rae",
+    "spanish",
+    "dictionary"
+  ],
+  "author": "Guillermo Moreno <gmq@guillermomoreno.cl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gmq/hubot-rae/issues"
+  },
+  "homepage": "https://github.com/gmq/hubot-rae#readme",
+  "dependencies": {
+    "rae": "0.0.5-beta"
+  }
+}
