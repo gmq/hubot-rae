@@ -15,7 +15,7 @@ var Rae = require('rae');
 
 module.exports = function(robot) {
 
-  robot.respond(/(rae|define)(\s-all)?(\s\w+)?/i, function(res) {
+  robot.respond(/(rae|define)(\s-all)?(\s\S+)?/i, function(res) {
     console.log(res.match);
     if(!res.match[3]) {
       res.send('¿Qué quieres que defina?');

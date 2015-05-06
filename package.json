@@ -1,6 +1,6 @@
 {
   "name": "hubot-rae",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Define words in spanish using hubot",
   "main": "index.js",
   "scripts": {
