@@ -2,9 +2,9 @@
 //   Defines words in spanish (RAE)
 //
 // Commands:
-//   hubot rae <word> // Returns the first definition found
-//   hubot rae -all <word> // Returns all the word meanings
-//   hubot define <word> // Alias for rae
+//   hubot rae <word> - Returns the first definition found
+//   hubot rae -all <word> - Returns all the word meanings
+//   hubot define <word> - Alias for rae
 //
 // Author:
 //   Guillermo Moreno
@@ -15,7 +15,7 @@ var Rae = require('rae');
 
 module.exports = function(robot) {
 
-  robot.respond(/(rae|define)(\s-all)?(\s\S+)?/i, function(res) {
+  robot.respond(/(rae|define)(\s-all)?(\s\S+)+/i, function(res) {
     console.log(res.match);
     if(!res.match[3]) {
       res.send('¿Qué quieres que defina?');
